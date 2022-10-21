@@ -1,7 +1,11 @@
-# Project 4 - Backend
+# Project 4 - Backend Readme
+Georges Ankenmann - 100 935 237 - georgesankenmann@cmail.carleton.ca
+Nnadozie Iwunze - 101 213 820 - nnadozieiwunze@cmail.carleton.ca
+Feifei Pang - 101 244 289 - feifeipang@cmail.carleton.ca
+
 
 ## Minimum Requirements
-- Modern computer (4 cores, 8GB of RAM)
+- Modern computer (4 cores, 8GB of RAM, 20GB storage)
 - Internet connection
 - Latest Docker Engine
 - Latest Docker Compose

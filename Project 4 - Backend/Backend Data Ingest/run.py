@@ -42,7 +42,7 @@ for file in data_files:
     with open(file,'r', encoding='utf-8-sig') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            #print (row)
+            #this if can be removed with further data cleaning.
             if name in datasets_with_geo_lowercase:
                 tmp = {
                     "dataset":name,
@@ -61,6 +61,7 @@ for file in data_files:
                         "lon":float(row["LONGITUDE"])
                     }
                 }
+            # not everything has GPS coordinates (weather data)    
             else:
                 tmp = {
                     "dataset":name,
